@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Yanone Kaffeesatz", sans-serif;
+    padding: 70px 80px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.name{
+    font-size: 50px;
+}
+
+nav{
+    display: flex;
+    gap: 60px;
+    align-items:center;
+}
+    
+nav a{
+    font-size: 24px;
+    text-decoration: none;
+    color:black;
+    font-weight: 400;
+}
+
+nav a:hover{
+    cursor: pointer;
+    color:mediumseagreen;
+}
+
+nav button, .product-basket {
+    background:mediumaquamarine;
+    padding: 10px 20px;
+    border:none;
+    color:white;
+    border-radius: 33px;
+    font-family:"Yanone Kaffeesatz", sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.product{
+    margin: 40px 0 70px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.product-description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+h1{
+    font-size: 45px;
+    font-weight: 500;
+
+}
+span{
+    font-size:30px;
+    font-weight: 400;
+    color:cadetblue;
+}
+
+.product-price, .products h2{
+    font-size: 30px;
+    color:black;
+}
+.product-main, .products-card figcaption,
+.products-description
+{
+    font-size: 20px;
+    color:cadetblue;
+    line-height: 150%;
+}
+h3, .products-price, .info h3{
+    color:black;
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+    color:cadetblue;
+}
+.products-cards{
+    margin: 24px 0 100px;
+    display: flex;
+    gap: 30px;
+}
+.products-card{
+    flex: auto;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #E6E6E6;
+    padding-top: 40px;
+}
+
+.footer-links{
+    display:flex;
+    gap:30px;
+}
+.link{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 150px;
+    
+}
+ 
+.link a, .link h2{
+    width: 500;
+    line-height: 150%;
+    color:cadetblue;
+    text-decoration: none;
+}
+.link a:hover{
+    cursor: pointer;
+    color:mediumseagreen;
+}
+.link h2{
+    color: black;
+}
+
+info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Media{
+    margin: 20px 0 20px;
+    display: flex;
+    align-items:center;
+    gap: 24px;
+}
+
+
+
+

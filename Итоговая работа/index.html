@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название сайта</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">Ульяновск<span>&#127753</span></a>
+                 <div id="time">
+                    </div>
+                <nav class="nav" id="">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Меню</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                   
+                </nav>
+                <button class="menu-toggle" aria-label="Меню">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Ульяновск</h1>
+                <p class="hero__subtitle">Достопримечательности города</p>
+                <div class="hero__buttons">
+                    <a href="#menu" class="btn btn--primary">Каталог</a>
+                    <a href="#contacts" class="btn btn--outline">Контакты</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__image">
+                        <img src="images/city.jpg" alt="">
+                    </div>
+                    <div class="about__content">
+                        <h2 class="section-title">О городе</h2>
+                        <p class="about__text">Ульяновск – российский город с интересной историей, расположенный в центре Среднего Поволжья. Он выстроен в живописной местности, на берегах реки Волги. Почти 100 лет название города неизменно сопровождалось определением «родина Ленина», и сегодня многие памятные места Ульяновска неразрывно связаны с именем вождя мирового пролетариата. Впрочем, именно Ильичу местные краеведы и туристы обязаны сохранившимися прекрасными образцами дореволюционной провинциальной архитектуры.</p>
+                        <p class="about__text">Город знаменит прежде всего своими уроженцами — здесь прошло детство писателей Ивана Гончарова и Николая Карамзина, государственного деятеля Александра Керенского и художника Аркадия Пластова.</p>
+                      <ul class="about__features">
+                            <li class="feature-item">
+                                <span></span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-solid fa-circle-dot"></i>&nbsp
+                                <span>Ульяновск часто включают в маршруты круизов по Волге. </span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-solid fa-circle-dot"></i>&nbsp
+                                <span>Когда‑то этот город славился своими суконными фабриками, а сегодня носит звание авиационной столицы страны.</span>
+                            </li>
+                              <li class="feature-item">
+                                <i class="fa-solid fa-circle-dot"></i>&nbsp
+                                <span>Указом Президента Российской Федерации от 2 июля 2020 городу было присвоено звание «Город трудовой доблести»</span>
+                            </li>      
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Достопримечательности</h2>
+                <div class="menu__content active" id="coffee">
+                    <div class="menu__grid">
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Центр‑музей И. А. Гончарова</h3>
+                            </div>
+                            <p class="menu-item__description">Он находится в постройке конца XVIII века, когда‑то принадлежавшей родителям писателя. Здесь будущий автор «Обломова» родился и провёл детство. Экспозиция погружает в атмосферу зажиточной купеческой семьи, а также рассказывает о петербургском периоде жизни классика.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Храм Рождества Христова</h3>
+                            </div>
+                            <p class="menu-item__description">Его возвели в начале XIX века на пожертвования частных лиц на месте 200-летней деревянной церкви. Свой нынешний облик — крестово‑купольного храма с элементами неовизантийского стиля — постройка приобрела уже после реконструкции в 1891‑м. </p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Императорский мост</h3>
+                            </div>
+                            <p class="menu-item__description">Инициатором строительства одного из самых известных мостов через Волгу был Столыпин, в 1910‑м посетивший Симбирск.Общая длина конструкции — 2111 метров, и на момент открытия осенью 1916 года мост был самым протяжённым в Европе. </p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Музей истории гражданской авиации</h3>
+                            </div>
+                            <p class="menu-item__description">Среди музейных экспонатов — туполевский моноплан АНТ‑4 или Як‑42, созданный в 1970‑х для замены технически устаревшего Ту‑134.Гости могут даже заглянуть в кабину лётного экипажа.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Карамзинский сквер</h3>
+                            </div>
+                            <p class="menu-item__description">Памятник писателю и историку Николаю Карамзину — уроженцу Симбирского уезда — появился здесь по распоряжению Николая I ещё в 1845‑м. А двадцать лет спустя тогдашний губернатор распорядился разбить вокруг монумента обширную зелёную зону.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Памятник букве «ё»</h3>
+                            </div>
+                            <p class="menu-item__description"> Двухметровый гранитный монолит, на котором высечена «ё», украсил город в 2005‑м. Его появление в Ульяновске — не случайность. В русский алфавит эту букву, предположительно, ввёл Карамзин. В 1797‑м великий уроженец Симбирской губернии в одном из своих стихотворений написал «слёзы» вместо «слiозы»</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы</h2>
+                <div class="reviews__slider">
+                   
+                    <div class="review">
+                         <div class="review__author">
+                            <img src="images/stepan.png" alt=""
+                                class="review__photo">
+                            <span class="review__name">Степан</span>
+                        </div>
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Приезжайте, не пожелеете, здесь вам рады. Здесь очень красивая архитектура, дешёвая еда и комфортные отели.</p>
+                    </div>
+                    <div class="review">
+                        <div class="review__author">
+                            <img src="images/anast.png" alt=""
+                                class="review__photo">
+                            <span class="review__name">Анастасия</span>
+                        </div>
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Понравился район "Новая жизнь" и центр города. Без машины будет тяжеловато. </p>
+                    </div>
+                    <div class="review">
+                         <div class="review__author">
+                            <img src="images/olga.png" alt=""
+                                class="review__photo">
+                            <span class="review__name">Ольга</span>
+                        </div>
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Красивый, живописный город.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="contacts__info">
+                        <h2 class="section-title">Контакты</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <span>г.Ульяновск, ул. Гончарова 20</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <span>8(905)3658129</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span>ul-media@mail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <span>Пн-Пт 9:00 - 21:00<br>Сб-Вс 10:00 - 20:00</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" aria-label="Telegram"><i
+                                    class="fab fa-telegram-plane"></i></a>
+                        </div>
+                    </div>
+                    <div class="contacts__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2327.3713514498895!2d48.39412542842565!3d54.315066076024586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415d376cfa005957%3A0x69e88a4cddb3e175!2z0YPQuy4g0JPQvtC90YfQsNGA0L7QstCwLCAyMCwg0KPQu9GM0Y_QvdC-0LLRgdC6LCDQo9C70YzRj9C90L7QstGB0LrQsNGPINC-0LHQuy4sIDQzMjAwMA!5e0!3m2!1sru!2sru!4v1752422420157!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="#" class="logo">Ульяновск</a>
+                    <p class="footer__text">Достопримечательности города</p>
+                </div>
+                <div class="footer__nav">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Главная</a></li>
+                        <li><a href="#menu" class="footer__link">Меню</a></li>
+                        <li><a href="#about" class="footer__link">О нас</a></li>
+                        <li><a href="#reviews" class="footer__link">Отзывы</a></li>
+                        <li><a href="#contacts" class="footer__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__subscribe">
+                    <h3 class="footer__title">Подписка</h3>
+                    <p class="footer__text">Подпишитесь на наши новости и акции</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email" class="subscribe-input">
+                        <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+                
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© Copyright. Азимова Л.А. <br>Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+       <script src="js/script.js"></script>
+</body>
+
+</html>
